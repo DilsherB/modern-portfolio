@@ -4,8 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Title</title>
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custome CSS -->
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Hello webpack!</h1>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/rectangle.png" alt="logo" width="55px">Portfolio
+      </a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#techs">Techs</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="bx bx-moon" id="dark"></div>
+    </header>
+    
   </body>
+  <script src="index.js"></script>
 </html>
