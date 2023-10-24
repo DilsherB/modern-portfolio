@@ -4,20 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Title</title>
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custome CSS -->
+    <link rel="stylesheet" href="./style.css" />
   <script defer src="main.js"></script></head>
   <body>
-    <nav>
-      <div>
-        <Dilsher href="#index"> <img src=""/> DILSHER</a>
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/rectangle.png" alt="logo" width="55px">Portfolio
+      </a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#techs">Techs</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="bx bx-moon" id="dark"></div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      < class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>Dilsher Balouch</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione asperiores provident error, dignissimos necessitatibus vel fugiat ducimus beatae unde culpa reiciendis sunt. Eius, obcaecati itaque tempora voluptates deleniti molestiae consequatur.</p>
+        <div class="social-media">
+          <a href="#"><i class='bx bxl-linkedin' ></i></a>
+          <a href="#"><i class='bx bxl-github'></i></a>
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
       </div>
-      <ul>
-        <li><a href="#index">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#techs">Technologies</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button>Hire Me</button>
-    </nav>
+    </section>    
   </body>
+  <script src="index.js"></script>
 </html>
