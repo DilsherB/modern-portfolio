@@ -4,30 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Title</title>
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custome CSS -->
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <section>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/rectangle.png" alt="logo" width="55px">Portfolio
+      </a>
       <nav class="navbar">
-        <div class="logo">
-          <a href="#index"> <img src="./images/Rectangle.png" height="100px"></a>
-        </div>
-        <div class="mobile-menu">
-          <div class="menu-icon" id="menuIcon">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-          </div>
-      </div>
-        <ul class="nav-links">
-          <li><a href="#index">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#techs">Technologies</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#techs">Techs</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
       </nav>
-    </section>
+      <div class="bx bx-moon" id="dark"></div>
+    </header>
     
   </body>
   <script src="index.js"></script>
