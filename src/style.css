@@ -357,6 +357,8 @@ h2 {
   border-radius: 2rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  border-top: 0.6rem solid var(--main-color);
+  border-bottom: 0.6rem solid var(--main-color);
 }
 
 .portfolio-box .portfolio-layer {
