@@ -292,6 +292,8 @@ h2 {
   box-shadow: 0 0.1rem 0.5rem var(--shadow-color);
   text-align: center;
   transition: 0.5s ease-in-out;
+  border-top: 0.6rem solid var(--main-color);
+  border-bottom: 0.6rem solid var(--main-color);
 }
 
 .techs .heading {
