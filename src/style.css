@@ -276,6 +276,10 @@ span {
   margin-top: 10rem;
 }
 
+.about h3 {
+  text-align: left;
+}
+
 .about-img img {
   width: 26vw;
 }
@@ -414,8 +418,9 @@ h4 {
 }
 
 .contact form .input-box input {
-  width: 49%  ;
+  width: 49%;
 }
+
 .contact form textarea {
   resize: none;
 }
