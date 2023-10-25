@@ -74,7 +74,8 @@ a.active {
   color: var(--main-color);
   background: var(--white-color);
 }
-/* 
+
+/*
 .navbar a.active::before {
   content: '';
   position: absolute;
@@ -88,11 +89,12 @@ a.active {
 #darkMode {
   font-size: 2.4rem;
   cursor: pointer;
-  padding: .7rem 2rem;
+  padding: 0.7rem 2rem;
 }
 
 section {
   padding: 10rem 7% 2rem;
+
   /* min-height: 100vh; */
   min-height: 590px;
 }
