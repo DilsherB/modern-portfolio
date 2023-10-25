@@ -195,6 +195,10 @@ section {
   padding: 13px 0;
 }
 
+.home .profession i {
+  font-size: 3.8rem;
+}
+
 .home .profession-box .profession:nth-child(1) i {
   margin-right: 15px;
 }
@@ -202,10 +206,6 @@ section {
 .home .profession-box .profession:nth-child(2),
 .home .profession-box .profession:nth-child(4) {
   padding-bottom: 20px;
-}
-
-.home .profession i {
-  font-size: 3.8rem;
 }
 
 .home .profession h3 {
