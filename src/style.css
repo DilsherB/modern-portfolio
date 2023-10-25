@@ -435,3 +435,34 @@ h4 {
   margin-top: 2rem;
   cursor: pointer;
 }
+
+.footer {
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 7%;
+  background: var(--main-color);
+}
+
+.footer p {
+  color: var(--white-color);
+  font-size: 1.6rem;
+}
+
+.footer .footerIcon-top a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+  background: var(--white-color);
+  border-radius: 0.8rem;
+  border: 0.2rem solid var(--main-color);
+  outline: 0.2rem solid transparent;
+  transition: 0.5s ease;
+}
+
+.footer .footerIcon-top a:hover {
+  outline-color: var(--white-color);
+}
