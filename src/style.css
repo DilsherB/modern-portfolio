@@ -208,6 +208,10 @@ i {
   font-size: 3.8rem;
 }
 
+.tech-box i {
+  color: var(--main-color);
+}
+
 .home .profession-box .profession:nth-child(1) i {
   margin-right: 15px;
 }
@@ -294,17 +298,12 @@ h2 {
   transition: 0.5s ease-in-out;
   border-top: 0.6rem solid var(--main-color);
   border-bottom: 0.6rem solid var(--main-color);
-  transition: 0.9;
 }
 
 .techs .heading {
   text-align: center;
   padding-bottom: 3rem;
   text-decoration: underline;
-}
-
-.tech-box i {
-  color: var(--main-color);
 }
 
 .tech-box h2 {
