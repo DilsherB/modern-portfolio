@@ -15,12 +15,14 @@
     "no-param-reassign": "off",
     "eol-last": "off",
     "no-inline-styles": "off",
-    "import/extensions": [ 1, {
-      "js": "always", "json": "always"
-    }]
+    "quotes": "off",
+    "import/extensions": [
+      1,
+      {
+        "js": "always",
+        "json": "always"
+      }
+    ]
   },
-  "ignorePatterns": [
-    "dist/",
-    "build/"
-  ]
+  "ignorePatterns": ["dist/", "build/"]
 }
